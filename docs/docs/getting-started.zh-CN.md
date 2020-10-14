@@ -55,6 +55,7 @@ Copy:  typings.d.ts
 
 ```bash
 $ yarn
+# 或 npm i
 
 yarn install v1.21.1
 [1/4] 🔍  Resolving packages...
@@ -66,6 +67,7 @@ success Already up-to-date.
 
 ```bash
 $ yarn start
+# 或 npm run start
 
 Starting the development server...
 
@@ -109,6 +111,7 @@ export default defineConfig({
 
 ```bash
 $ yarn build
+# 或 npm run build
 
 ✔ Webpack
   Compiled successfully in 17.17s
@@ -136,7 +139,9 @@ tree ./dist
 
 ```bash
 $ yarn global add serve
+# 或 npm install -g serve
 $ serve ./dist
+# 或 npx serve dist
 
    ┌────────────────────────────────────────────────────┐
    │                                                    │
